@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bot Literario</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+    <h2 class="chat-header"> Bot Literario</h2>
+
+    <!-- LOAD BOOKS -->
+    <div class="load-container">
+      <button class="button" id="loadBtn">Load Books</button>
+      <span id="loadStatus"></span>
+    </div>
+
+    <!-- CHAT -->
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <form class="chat-input-form" id="chatForm">
+      <input
+        type="text"
+        class="chat-input"
+        id="chatInput"
+        required
+        placeholder="Ask something about the books..."
+      />
+      <button type="submit" class="button send-button">Send</button>
+    </form>
+
+    <button class="button clear-chat-button" id="clearChat">
+      Clear Chat
+    </button>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
