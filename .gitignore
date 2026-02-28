@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Env
+.env
+
+# Weaviate data
+weaviate_storage/
+
+# Books (copyright / data)
+libros/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
